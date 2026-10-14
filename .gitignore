@@ -364,3 +364,12 @@ FodyWeavers.xsd
 /SimpleDualSheath/SDS/NodeOverride.h
 /x64_v143/common_1_5_97_vc14/Release MT
 /x64_v143/common_1_5_97_vc14/Release MD/common_1_5_97_vc14.lib
+
+# CMake / cross-compile
+build/
+
+# macOS
+.DS_Store
+
+# Release archives (attached to GitHub releases, not versioned)
+dist/*.zip
